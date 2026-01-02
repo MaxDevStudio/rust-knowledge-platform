@@ -28,3 +28,5 @@ Thumbs.db
 # Тимчасові файли
 *.tmp
 *.bak
+/dist/
+dist/
