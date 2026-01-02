@@ -1,0 +1,12 @@
+[package]
+name = "rust-knowledge-platform"
+version = "0.1.0"
+edition = "2021"  # Стабільна, сумісна з усіма crates
+
+[workspace]
+members = [
+    "crates/shared",
+    "crates/ui",
+    "crates/web",
+    "crates/desktop",
+]

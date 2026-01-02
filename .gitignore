@@ -1,0 +1,30 @@
+# Rust/Cargo
+/target
+/Cargo.lock          # Опціонально (якщо не хочеш lockfile в репо)
+
+/dist                # Вихід trunk build (WASM, JS, HTML)
+
+/crates/**/target    # На всяк випадок для кожного crate
+
+# Tauri
+crates/desktop/tauri.conf.json.backup
+crates/desktop/.tauri
+
+# Node (якщо колись додамо JS tools)
+/node_modules
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Бекапи (наш скрипт)
+/backups/
+
+# Тимчасові файли
+*.tmp
+*.bak

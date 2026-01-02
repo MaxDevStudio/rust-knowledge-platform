@@ -1,0 +1,16 @@
+[package]
+name = "web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.6", features = ["csr"] }
+ui = { version = "0.1.0", path = "../ui" }
+
+[package.metadata.leptos]
+output-name = "web"
+site-root = "."
+site-pkg-dir = "pkg"
+style-file = "style.css"
+assets-dir = "public"
+
