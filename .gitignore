@@ -3,6 +3,8 @@
 /Cargo.lock          # Опціонально (якщо не хочеш lockfile в репо)
 
 /dist                # Вихід trunk build (WASM, JS, HTML)
+/dist/
+dist/
 
 /crates/**/target    # На всяк випадок для кожного crate
 
@@ -28,5 +30,4 @@ Thumbs.db
 # Тимчасові файли
 *.tmp
 *.bak
-/dist/
-dist/
+
