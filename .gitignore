@@ -24,7 +24,7 @@ Thumbs.db
 # Logs
 *.log
 
-# Бекапи (наш скрипт)
+# Бекапи (наш скрипт) backups created by backup.sh
 /backups/
 
 # Тимчасові файли
