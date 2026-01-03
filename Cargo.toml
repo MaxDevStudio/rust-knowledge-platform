@@ -9,4 +9,5 @@ members = [
     "crates/ui",
     "crates/web",
     "crates/desktop",
+    "crates/desktop/src-tauri",
 ]
